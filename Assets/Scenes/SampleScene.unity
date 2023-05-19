@@ -631,7 +631,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.04, y: 15.26, z: -10}
+  m_LocalPosition: {x: 2.04, y: -2.3600001, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2053,6 +2053,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 317842002}
+  doorOpen: {fileID: 4875573131379040553, guid: 4372a2d7f0d2b9243868eac5fdd4113a, type: 3}
 --- !u!1 &1760887203
 GameObject:
   m_ObjectHideFlags: 0
@@ -14743,7 +14744,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2131918674}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.04, y: 15.26, z: -10}
+  m_LocalPosition: {x: 2.04, y: -2.3600001, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14809,7 +14810,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6241678163108896886, guid: 268c5e66efc201c4d92b4431b9b1759c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 15.13
+      value: -2.49
       objectReference: {fileID: 0}
     - target: {fileID: 6241678163108896886, guid: 268c5e66efc201c4d92b4431b9b1759c, type: 3}
       propertyPath: m_LocalPosition.z
