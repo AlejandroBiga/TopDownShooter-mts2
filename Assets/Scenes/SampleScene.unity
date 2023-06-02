@@ -1144,6 +1144,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3125037405115972601, guid: 61cb1627489169b4b8e26d4f29eecc18, type: 3}
+      propertyPath: damage
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125037405115972601, guid: 61cb1627489169b4b8e26d4f29eecc18, type: 3}
+      propertyPath: playerLife
+      value: 
+      objectReference: {fileID: 1953237708}
     - target: {fileID: 6553185214475376901, guid: 61cb1627489169b4b8e26d4f29eecc18, type: 3}
       propertyPath: PatrollPoints.Array.size
       value: 2
@@ -1955,6 +1963,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3125037405115972601, guid: 61cb1627489169b4b8e26d4f29eecc18, type: 3}
+      propertyPath: damage
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125037405115972601, guid: 61cb1627489169b4b8e26d4f29eecc18, type: 3}
+      propertyPath: playerLife
+      value: 
+      objectReference: {fileID: 1953237708}
     - target: {fileID: 6553185214475376901, guid: 61cb1627489169b4b8e26d4f29eecc18, type: 3}
       propertyPath: PatrollPoints.Array.size
       value: 2
@@ -2900,6 +2916,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.4631605, y: 1.0536553}
   m_EdgeRadius: 0
+--- !u!114 &1953237708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166358843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25332f4cdd95ca24ca1d9864f56cabb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 5
+  health: 0
 --- !u!1 &1983640580
 GameObject:
   m_ObjectHideFlags: 0
@@ -15242,6 +15272,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3381617763899081002, guid: 6bb9924739f98134d96eb4622878a482, type: 3}
+      propertyPath: playerLife
+      value: 
+      objectReference: {fileID: 1953237708}
     - target: {fileID: 5049712750087063428, guid: 6bb9924739f98134d96eb4622878a482, type: 3}
       propertyPath: m_Name
       value: crab
@@ -15387,6 +15421,9 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 401783387835928677, guid: 268c5e66efc201c4d92b4431b9b1759c, type: 3}
-      insertIndex: -1
+      insertIndex: 4
       addedObject: {fileID: 1953237703}
+    - targetCorrespondingSourceObject: {fileID: 401783387835928677, guid: 268c5e66efc201c4d92b4431b9b1759c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1953237708}
   m_SourcePrefab: {fileID: 100100000, guid: 268c5e66efc201c4d92b4431b9b1759c, type: 3}
